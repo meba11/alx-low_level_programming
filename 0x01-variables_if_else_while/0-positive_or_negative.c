@@ -2,11 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/**                                                                                                                                                  
-* main - prints if the number is posetives, zero or negetive                                                                                         
-* Return: Always (Success)                                                                                                                           
-*                                                                                                                                                    
-*/
+/**                                                                                                                                                  * main - prints if the number is posetives, zero or negetive                                                                                        * Return: Always (Success)                                                                                                                          *                                                                                                                                                   */
 
 
 /* betty style doc for function main goes there */
@@ -17,7 +13,7 @@ int main(void)
         srand(time(0));
         n = rand() - RAND_MAX / 2;
         /* your code goes there */
-        if (n>0)
+        if ( n > 0)
           {
             printf("%d is posetive \n", n);
           }
